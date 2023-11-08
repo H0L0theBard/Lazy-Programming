@@ -32,13 +32,13 @@ v pa(i ar[],i s){
     {
         p ar[j] << " ";
     }
-    p " " br
+    p " " br;
 }
 
 i m {
     i ar[] = {62,32,23,9,10,25,239,230,23,21,56};
     i n = sz(ar)/sz(ar[0]);
     bs(ar,n);
-    p "sorted: " br
+    p "sorted: " br;
     pa(ar,n);
 }

@@ -17,4 +17,4 @@ typedef float f;
 
 #define sz sizeof
 #define p std::cout<<
-#define br <<std::endl;
+#define br <<std::endl
